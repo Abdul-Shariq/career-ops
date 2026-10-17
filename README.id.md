@@ -124,7 +124,7 @@ Heningnya kabar setelah Anda menekan tombol kirim bukanlah salah Anda. Cukup ban
 
 Proses rekrutmen tidak akan membaik dengan sendirinya. Orang-orang yang menjalaninyalah yang bisa memperbaikinya—dan mereka sudah berkumpul di sini, saling mencocokkan catatan dan membantu mengatur konfigurasi satu sama lain.
 
-<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=id" alt="Dinding animasi berisi avatar GitHub para kontributor, terisi sesuai urutan kedatangan sejak April 2026, dengan kotak berikutnya dibiarkan kosong." width="800"></a></p>
+<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=id" alt="Dinding animasi berisi avatar GitHub para kontributor, terisi sesuai urutan kedatangan sejak April 2026, dengan kotak berikutnya dibiarkan kosong." width="100%"></a></p>
 
 [Di sinilah perbaikan itu ditulis](CONTRIBUTING.md). Sebuah ruang bersama, bukan klub eksklusif. **Mari kita bangun bersama.**
 

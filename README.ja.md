@@ -124,7 +124,7 @@ npx @santifer/career-ops init
 
 採用は勝手には直らない。それをくぐり抜けている人たちなら直せる。そして彼らはもう同じ部屋にいて、メモを見せ合い、互いのセットアップを直している。
 
-<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=ja" alt="コントリビューターの GitHub アバターが 2026年4月 から参加順に埋まっていくアニメーションの壁。次のマスは空けてある。" width="800"></a></p>
+<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=ja" alt="コントリビューターの GitHub アバターが 2026年4月 から参加順に埋まっていくアニメーションの壁。次のマスは空けてある。" width="100%"></a></p>
 
 [修正はここで書かれる](CONTRIBUTING.md)。クラブではなく、部屋。**一緒に作ろう。**
 

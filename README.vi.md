@@ -124,7 +124,7 @@ Sự im lặng sau khi bạn bấm gửi không phải lỗi của bạn. Đủ 
 
 Việc tuyển dụng sẽ không tự sửa. Những người đang trải qua nó thì có thể, và họ đã ở trong phòng, trao đổi kinh nghiệm và sửa cấu hình cho nhau.
 
-<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=vi" alt="Bức tường động gồm ảnh đại diện GitHub của những người đóng góp, lấp đầy theo thứ tự tham gia từ tháng 4 năm 2026, với ô tiếp theo để trống." width="800"></a></p>
+<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=vi" alt="Bức tường động gồm ảnh đại diện GitHub của những người đóng góp, lấp đầy theo thứ tự tham gia từ tháng 4 năm 2026, với ô tiếp theo để trống." width="100%"></a></p>
 
 [Đây là nơi bản sửa được viết ra](CONTRIBUTING.md). Một căn phòng, không phải một câu lạc bộ. **Hãy cùng xây dựng.**
 

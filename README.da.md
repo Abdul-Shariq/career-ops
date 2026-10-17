@@ -124,7 +124,7 @@ Stilheden, efter du trykker send, handler ikke om dig. Nok mennesker så det sam
 
 Rekruttering reparerer ikke sig selv. Det kan de, der går igennem den, og de er allerede i rummet, hvor de sammenligner noter og fikser hinandens opsætninger.
 
-<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=da" alt="Animeret væg med bidragydernes GitHub-avatarer, der fyldes op i den rækkefølge, de kom til siden april 2026, med det næste felt holdt åbent." width="800"></a></p>
+<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=da" alt="Animeret væg med bidragydernes GitHub-avatarer, der fyldes op i den rækkefølge, de kom til siden april 2026, med det næste felt holdt åbent." width="100%"></a></p>
 
 [Det er her, rettelsen bliver skrevet](CONTRIBUTING.md). Et rum, ikke en klub. **Lad os bygge sammen.**
 

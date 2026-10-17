@@ -126,7 +126,7 @@ Die Stille nach dem Absenden hat nichts mit dir zu tun. Genug Leute haben dassel
 
 Das Recruiting repariert sich nicht von selbst. Die Leute, die es durchmachen, können das, und sie sind schon im Raum, tauschen Notizen aus und reparieren sich gegenseitig die Setups.
 
-<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=de" alt="Animierte Wand mit den GitHub-Avataren der Mitwirkenden, die sich seit April 2026 in der Reihenfolge ihrer Ankunft füllt; das nächste Feld bleibt frei." width="800"></a></p>
+<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=de" alt="Animierte Wand mit den GitHub-Avataren der Mitwirkenden, die sich seit April 2026 in der Reihenfolge ihrer Ankunft füllt; das nächste Feld bleibt frei." width="100%"></a></p>
 
 [Hier wird die Lösung geschrieben](CONTRIBUTING.md). Ein Raum, kein Club. **Lasst uns gemeinsam bauen.**
 

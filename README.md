@@ -124,7 +124,7 @@ The silence after you hit send is not about you. Enough people saw the same thin
 
 Hiring will not fix itself. The people going through it can, and they are already in the room, comparing notes and fixing each other's setups.
 
-<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=en" alt="Animated wall of contributors' GitHub avatars, filling in order of arrival since April 2026, with the next square left open." width="800"></a></p>
+<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=en" alt="Animated wall of contributors' GitHub avatars, filling in order of arrival since April 2026, with the next square left open." width="100%"></a></p>
 
 [This is where the fix gets written](CONTRIBUTING.md). A room, not a club. **Let's build together.**
 

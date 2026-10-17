@@ -126,7 +126,7 @@ npx @santifer/career-ops init
 
 招募不會自己修好。正在經歷它的人可以，而且他們已經在這個房間裡，交換筆記，互相修各自的設定。
 
-<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=zh-TW" alt="貢獻者 GitHub 頭像組成的動態牆，自 2026年4月 起依加入順序逐一填滿，下一格留空。" width="800"></a></p>
+<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=zh-TW" alt="貢獻者 GitHub 頭像組成的動態牆，自 2026年4月 起依加入順序逐一填滿，下一格留空。" width="100%"></a></p>
 
 [修復就是在這裡寫出來的](CONTRIBUTING.md)。是房間，不是俱樂部。**一起來建。**
 

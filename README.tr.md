@@ -124,7 +124,7 @@ Gönder'e bastıktan sonraki sessizlik seninle ilgili değil. Aynı şeyi gören
 
 İşe alım kendi kendine düzelmeyecek. Onu yaşayanlar düzeltebilir ve onlar zaten odadalar: notları karşılaştırıyor, birbirlerinin kurulumlarını onarıyorlar.
 
-<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=tr" alt="Katkıda bulunanların GitHub avatarlarından oluşan hareketli duvar; Nisan 2026 tarihinden beri geliş sırasına göre doluyor ve sıradaki kare boş bırakılıyor." width="800"></a></p>
+<p align="center"><a href="CONTRIBUTING.md"><img src="https://warpchart.dev/api/builders?lang=tr" alt="Katkıda bulunanların GitHub avatarlarından oluşan hareketli duvar; Nisan 2026 tarihinden beri geliş sırasına göre doluyor ve sıradaki kare boş bırakılıyor." width="100%"></a></p>
 
 [Düzeltme burada yazılıyor](CONTRIBUTING.md). Bir kulüp değil, bir oda. **Birlikte inşa edelim.**
 
