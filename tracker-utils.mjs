@@ -68,8 +68,12 @@ export function rebuildRow(parts) {
  * (`—`, `N/A`, empty) is the documented "no report" convention and is never
  * broken.
  *
+ * "The tracker's own directory" has two answers when the tracker is a symlinked
+ * file: the folder the link lives in (where an editor resolves it from) and the
+ * folder of its target. Pass both, from trackerLinkDirsFor() (#5374).
+ *
  * @param {string} reportCell - Raw Report cell value.
- * @param {string} trackerDir - Directory containing the tracker file.
+ * @param {string|string[]} trackerDir - Directory (or directories) containing the tracker file.
  * @param {string} dataRoot - Data root (getCareerOpsRoot()).
  * @param {{onInspectionError?: Function, stat?: Function}} [options]
  * @returns {string|null} The unresolved link target, or null when there is no link,
@@ -81,7 +85,8 @@ export function findDeadReportLink(reportCell, trackerDir, dataRoot, options = {
   const link = match[1];
   const inspect = options.stat ?? statSync;
   const errors = [];
-  const candidates = [...new Set([join(trackerDir, link), join(dataRoot, link)])];
+  const trackerDirs = Array.isArray(trackerDir) ? trackerDir : [trackerDir];
+  const candidates = [...new Set([...trackerDirs.map((dir) => join(dir, link)), join(dataRoot, link)])];
   for (const path of candidates) {
     try {
       if (inspect(path).isFile()) return null;
@@ -337,6 +342,25 @@ export function resolveWorkspaceRoot(trackerPath) {
  */
 export function resolveWorkspaceRootFor(rootDir) {
   return resolveWorkspaceRoot(resolve(rawTrackerPath(rootDir)));
+}
+
+/**
+ * Directories a tracker's relative links can be resolved from, for
+ * findDeadReportLink(). The realpathed tracker's folder comes first, then the
+ * folder of the tracker path as given, deduplicated.
+ *
+ * They differ when the tracker is a symlinked FILE, e.g. `data/applications.md`
+ * linked into a private repo while `reports/` stays in the checkout. Editors
+ * resolve `../reports/...` from the link's own folder, so checking only the
+ * target's folder flagged every live link as missing (#5374). Same raw-path idea
+ * as resolveWorkspaceRootFor (#3169); the lock key keeps the canonical path.
+ *
+ * @param {string} rootDir - The career-ops data root directory.
+ * @returns {string[]} One or two absolute directories.
+ */
+export function trackerLinkDirsFor(rootDir) {
+  const raw = resolve(rawTrackerPath(rootDir));
+  return [...new Set([dirname(canonicalizeTrackerPath(raw)), dirname(raw)])];
 }
 
 /**
