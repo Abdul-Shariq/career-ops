@@ -354,6 +354,17 @@ export function capabilityCard(manifest, source) {
   ].join('\n');
 }
 
+/**
+ * Who publishes a registry entry. Older entries carry no `author`, so fall back
+ * to the owner in the GitHub repo URL; null when neither says.
+ * @param {{ author?: unknown, repo?: unknown }} entry
+ */
+export function registryAuthor(entry) {
+  if (typeof entry.author === 'string' && entry.author.trim()) return entry.author.trim();
+  const owner = /^https:\/\/github\.com\/([^/]+)\//.exec(String(entry.repo ?? ''));
+  return owner ? owner[1] : null;
+}
+
 async function cmdAvailable() {
   const reg = loadRegistry(ROOT);
   const bundled = discoverPlugins([path.join(ROOT, 'plugins')]);
@@ -368,8 +379,9 @@ async function cmdAvailable() {
     console.log('  (none yet — publish yours as `career-ops-plugin-<name>` and open a registry PR; see docs/PLUGINS.md)');
   } else {
     for (const p of reg.plugins) {
+      const author = registryAuthor(p);
       const seed = p.supersedesBundled === true ? `  🔁 maintained successor of the bundled "${p.id}" reference` : '';
-      console.log(`  ${p.name}  [${p.hooks.join(', ')}]  ✓ approved (pinned ${String(p.sha).slice(0, 7)})  — ${p.description}  (by ${p.author}, v${p.version})${seed}`);
+      console.log(`  ${p.name}  [${p.hooks.join(', ')}]  ✓ approved (pinned ${String(p.sha).slice(0, 7)})  — ${p.description}  (${author ? `by ${author}, ` : ''}v${p.version})${seed}`);
     }
     console.log('\nInstall:  node plugins.mjs add <name>');
   }
