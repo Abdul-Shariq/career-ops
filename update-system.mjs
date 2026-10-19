@@ -355,6 +355,7 @@ const SYSTEM_PATHS = [
   'find.mjs',
   'verify-pipeline.mjs',
   'discard-analytics.mjs',
+  'sync-batch-input.mjs',
   'reconcile-pipeline.mjs',
   'dedup-tracker.mjs',
   'add-entry.mjs',
