@@ -414,6 +414,7 @@ const SYSTEM_PATHS = [
   'jd-skill-gap.mjs',
   'career-profile.mjs',
   'cv-title-check.mjs',
+  'filter-audit.mjs',
   'prepare-application.mjs',
   'application-artifacts.mjs',
   'evaluation-cache.mjs',
