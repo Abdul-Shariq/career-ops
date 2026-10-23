@@ -315,6 +315,7 @@ const SYSTEM_PATHS = [
   'lib/node-floor.mjs',
   'lib/chromium-launch-error.mjs',
   'lib/local-today.mjs',
+  'lib/jd-archive-section.mjs',
   'lib/parse-date.mjs',
   'lib/personalization.mjs',
   'lib/reply-proposals.mjs',
