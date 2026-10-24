@@ -205,3 +205,4 @@ public commit with a stated reason.
 - @tanyiwende19-source | 2026-10-18 | "Selina" | id:263991212 | src:https://github.com/career-ops-hq/career-ops/discussions/5444 | n:157
 - @AyunniZafirah | 2026-10-21 | id:149381795 | src:https://github.com/career-ops-hq/career-ops/discussions/5622 | n:158
 - @kunalg06 | Kunal Gaikwad | 2026-10-24 | "Help me fine Sponsorship jobs" | id:18356081 | src:https://github.com/career-ops-hq/career-ops/discussions/5808 | n:159
+- @LexLeontiev | Lex Leontiev | 2026-10-24 | "The first interview should always be human-to-human." | id:11589535 | src:https://github.com/career-ops-hq/career-ops/discussions/5816 | n:160
